@@ -250,6 +250,9 @@ body {
     .work, .play, .study, .exercise, .social, .self {
         min-height: 11.875rem;
     }
+    .left-bottom button:first-child {
+        width: 15%;
+    }
     .info {
         gap: 1rem;
     }
@@ -258,9 +261,11 @@ body {
         justify-content: space-between;
     }
     .text h1 {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
-    .text p {
+    .info p:last-child {
         margin-top: 1.25rem;
+        width: 100%;
+        font-size: 0.9rem;
     }
 }
